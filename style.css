@@ -1,0 +1,153 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seção Home */
+.home {
+    background-image: url('hamburguer.jpg'); /* Coloque sua imagem aqui */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.home .welcome-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.home .btn {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Seção História */
+.historia {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.historia h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Seção Menu */
+.menu {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.menu .menu-categoria {
+    margin: 20px 0;
+}
+
+.menu .menu-categoria h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.menu .menu-categoria ul {
+    list-style: none;
+}
+
+.menu .menu-categoria ul li {
+    font-size: 1.2rem;
+}
+
+/* Seção Contato */
+.contato {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contato form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contato form input,
+.contato form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contato form button {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
